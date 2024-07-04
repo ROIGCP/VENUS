@@ -1,18 +1,33 @@
 # ROI Training Inc - Venus Document Management System
-# Last Edit: 7/27/2020
-
-from __future__ import absolute_import
+# Last Edit: 7/4/2024
 
 import datetime
 import os
 import hashlib
-import six
 
 from flask import current_app
 from google.cloud import storage
 from werkzeug.exceptions import BadRequest
 from werkzeug.utils import secure_filename
 
+def upload_image_file(img):
+    """
+    Upload the user-uploaded file to Google Cloud Storage and retrieve its
+    publicly-accessible URL.
+    """
+    if not img:
+        return None
+
+    public_url = storage.upload_file(
+        img.read(),
+        img.filename,
+        img.content_type
+    )
+
+    current_app.logger.info(
+        'Uploaded file %s as %s.', img.filename, public_url)
+
+    return public_url
 
 def _check_extension(filename, allowed_extensions):
     file, ext = os.path.splitext(filename)
@@ -48,7 +63,6 @@ def upload_file(file_stream, filename, content_type):
     bucketname = os.getenv('GOOGLE_STORAGE_BUCKET') or os.getenv(
         'GOOGLE_CLOUD_PROJECT') + '-bucket'
 
-    # [START venusapp_cloud_storage_client]
     client = storage.Client()
     bucket = client.bucket(bucketname)
     blob = bucket.blob(filename)
@@ -58,9 +72,5 @@ def upload_file(file_stream, filename, content_type):
         content_type=content_type)
 
     url = blob.public_url
-    # [END venusapp_cloud_storage_client]
-
-    if isinstance(url, six.binary_type):
-        url = url.decode('utf-8')
 
     return url

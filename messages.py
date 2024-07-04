@@ -1,5 +1,5 @@
 # ROI Training Inc - Venus Document Management System
-# Last Edit: 7/27/2020
+# Last Edit: 7/4/2024
 #
 import os
 from google.cloud import pubsub_v1
@@ -14,6 +14,3 @@ def sendpubsub(message):
         topic_path, data
     )
     return "Message Sent"
-
-if __name__ == '__main__':
-    sendpubsub("This is a test")
