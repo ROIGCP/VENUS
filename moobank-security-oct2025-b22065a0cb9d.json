@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "moobank-security-oct2025",
+  "private_key_id": "b22065a0cb9d6f3bcefb226ee6a7e192b0fbec00",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDCeRoPd42hRCth\n7LxTqCcseKPI3V6tEajGinrbPt3NQpo0YW1e6roMApfQU7cp+/klfVmE7zuhmRY7\nftP26WaZ+MKaHHF08hN0bY7Yd5HCnROdU18h8JmVDJV4jXUa1XGMaiPnlK09+8Up\nY99P0F5XA+G+yL6tAfh+OzFdSwhgoxdwX8x6kV5siA9NPBdZ+obTqpXlFvrek5Um\n5i5toliPD62XwHuSzWcscYJ2dUflegMRSccUHwiLBSqa0iX0E6JNBwRmmso6u+zs\nZNEUdC4qN1zKDjIrQusYw/Zpc71Gech1s/7DwwNEaYi0Ye6ujAgX2Dl1N8g4ElkU\n4GlSAH7bAgMBAAECggEAWC7cy9Ws4csNFvbnwNF3jflYX21OEJF45CqIIiHEJt7E\nGOty0j8CxQ5p87v6Su3ooIDSFm76rcDCrZDJoeVdMoV0DLjIE7zvaHSDeRHjBQoA\nCm9zLGsy4TzXDFasmtHdjsvUYx7uXbRsR2Pzr3fvR2rJsx7JI59IpEjIDiNHdbXD\nM03jDaAXKCSAlNFcWP5LUUT3F6/NOd+Rb0iFGgnrRs2bWHPR6L6ycjL9PFHblbwF\n06jd8lKwj/LUhyfo2eFiCcDcm3aTUjU64fXFyAY5w0tZ0mu/1sYcpREsI0+4SKHg\nn7dJRsfshzJAWk6pKtnyxFf9y0ioiJo89KB/GMy2OQKBgQD3FXJp8j+cORtm7/PR\n0ll5iR+v/wdk33u3kdvCary3BkKkJsSMc08nO7ZqdzqyBy1nSUR19tYtn+skDWVx\nA+lboFDMRoxcnHlriSg0npwBUKG04fqWe7DI/3EIdaBNiroNJ0u8d/Jk8jaQ0pzN\nGDf5eRqHfQjrWkb8D0SN8Y/PKQKBgQDJfaNywfmDlspw+H9+PXCyQeVBmAprAkLE\nZiyWe/+w+U+dDKraCvsySql2/phKOnXFq/3yPwAZNVIGKALzjvQNmBgOBgoE+vWf\n/SVCdmvqNnFvd3R2ZvtIK0CPzQlI2nQq8/2hHEzYRPyGRz+Iv97cW0ZRuNzpJfoT\nIfJL9w6SYwKBgQCzTtUhHbQb4zWHlksS0dws3t4oEqODCMv3g9o/VMZu7BQgnCG2\n61dd2W+gA7aMy7ifZARStzbnFU7HcxFS2svWupjoJapm6wcSiw6qYRBFxAYWBoib\n/FdnBjk5MmOK4knykbncpA88QqpmnvE7xX+Zg9FE0fBPG8y3zzyo5cy/QQKBgQCo\n8QUo5Wd2Y+qdyl3r1Uw2ynWVCAxEKQMedaURECsVkhSk08g1RlvUkTGCKno6UsYI\n1er5QMWuXTzHGKlQ2h3bgBk7OOkRv/JPEQw6q9xT5w45rekilbo/irR5XitYwIIC\nuc2BVp8//qfVVsv4txf/nzBYuS3Q9xy1ChOEikPXjQKBgBSgCqinnHnArn+HTCOL\nvFIpxfNnv1gRFI6qqDcXjDGfB56B9rkkAUCG4A46m9aZr9ajpCR9mroELd+e9/E6\nUZMOdJNdNWRnW3Itx6ednkR/yazDenY4CT/wk+Xhp28LyrbVCC0FzImYwIws7GME\nNjt8Ogmubjch03fykbov7fuQ\n-----END PRIVATE KEY-----\n",
+  "client_email": "fridaysa@moobank-security-oct2025.iam.gserviceaccount.com",
+  "client_id": "101634765935486980010",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/fridaysa%40moobank-security-oct2025.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
